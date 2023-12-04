@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navBAR */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+nav h1{
+  padding: 0.56rem;
+}
+nav h1 :hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(16, 133, 196);
+  text-decoration-thickness: 4px;
+  z-index: -1;
+}
+nav ul{
+    background-color: white;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+nav ul li{
+  padding: 1rem;
+  list-style: none;
+  color: inherit;
+}
+nav ul li :hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(16, 133, 196);
+  text-decoration-thickness: 4px;
+   /* z-index: -1; */
+}
+nav ul a{
+  color: black;
+}
+.login a{
+  height: 7vh;
+  padding-top: 2rem;
+}
+.login a :hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(16, 133, 196);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+}
+nav ul button  {
+  border: #E87A14;
+  height: 7vh;
+  Width:90px;
+  border-radius: 16px;
+  background: #E87A14;
+  color: white;
+}
+nav ul button :hover{
+  /* border: solid thick blue; */
+  text-decoration: underline;
+  text-decoration-color: rgb(16, 133, 196);
+  text-decoration-thickness: 4px;
+
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  nav a {
+  font-size: 10px;
+  }
+  nav h1{
+    font-size: 10px;
+  }
+  nav ul{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+}
+
+
+/* SECTIONONE */
+
+#sectionOne{
+  display: flex;
+  margin-left: 7.5rem;
+  gap: 15rem;
+  /* justify-content: space-between; */
+   
+}
+#sectionOne h5{
+  color: aqua;
+  font-size: 1rem;
+}
+#sectionOne p{
+  font-size: 2rem
+
+}
+.sectiononetext{
+  padding-top: 10rem;
+  /* padding: 3rem; */
+  /* font-size: 3rem; */
+}
+.sectiononetext p{
+  padding-top: 0.9rem;
+}
+#sectionOne button{
+  border-radius: 0.5rem;
+  width: 5rem;
+  border: #E87A14;
+  margin-top: 25px;
+  color: white;
+  height: 2.5rem;
+  background-color: #E87A14;
+}
+div img{
+  width: 98%;
+  height: 85vh;
+  /* margin-left: 5rem; */
+}
+
+/* sectiontwo */
