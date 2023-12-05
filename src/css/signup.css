@@ -8,14 +8,13 @@
 }
 
 #sectiontwo{
-    background-color: olive;
+    background-color: yellow;
     display: flex; 
     justify-content: center;
     align-content: center;
    }
    
    #sectiontwo .contactus{
-    
      border: solid thick black;
    }
    .contactinfo img{
