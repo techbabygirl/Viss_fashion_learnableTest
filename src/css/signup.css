@@ -1,25 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    box-sizing: border-box;
-    text-decoration: none;
-
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 #sectiontwo{
-    background-color: yellow;
-    display: flex; 
-    justify-content: center;
-    align-content: center;
-   }
+  background: rgb(211,153,45);
+  background: linear-gradient(90deg, rgba(211,153,45,1) 14%, rgba(164,54,56,1) 100%);
+  background-color: crimson;
+  display: flex; 
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  padding: 3rem;
+}
+ .popup{
+  overflow: hidden;
+  width: 50vw;
+  /* height: 80vh; */
+  background-color: white;
+  display: flex;
+  /* padding: 5rem; */
+  border-radius: 10px;
+ }
+ .header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 6px;
+  flex-direction: column;
+  padding: 1rem;
+ }
+ .header h3{
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+
+ }
+ .header p{
+
+  font-size: 14px;
+ }
+ .contactinfo{
+  width: 70%;
+ }
+ .imgRight{
+  width: 70%;
+  background-color: red ;
+ }
+ .imgRight img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+ .socialMediaWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 10px;
+ }
+
+ .socialMediaButton{
+  width: 80%;
+  margin: auto;
+  height: 7vh;
+  border: 1px solid grey;
+  border-radius: 50px;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+ }
+ .icon{
+  height: 29px;
+  /* width: 3px; */
+ }
+
+ /* #sectiontwo .contactus{
+  
+   border: solid thick black;
+ }
+ .contactinfo img{
+   width: 2rem;
+   height: 2rem;
+   justify-content: center;
    
-   #sectiontwo .contactus{
-     border: solid thick black;
-   }
-   .contactinfo img{
-     width: 2rem;
-     height: 2rem;
-     justify-content: center;
-     
-   }
+ } */
